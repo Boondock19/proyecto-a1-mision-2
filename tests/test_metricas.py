@@ -1,6 +1,6 @@
 import unittest
 from src.metricas import contar_aciertos
-
+from src.metricas import precision
 
 class TestMetricas(unittest.TestCase):
     def test_cuenta_aciertos(self):
@@ -9,6 +9,11 @@ class TestMetricas(unittest.TestCase):
     def test_rechaza_longitudes_distintas(self):
         with self.assertRaises(ValueError):
             contar_aciertos([1], [1, 0])
+
+    def test_cuenta_precision(self):
+        
+        self.assertEqual(precision([1, 0, 1], [1, 1, 1]), 2 / 3)
+        self.assertEqual(precision([], []), 0.0)
 
 
 if __name__ == "__main__":
