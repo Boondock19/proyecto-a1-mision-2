@@ -1,4 +1,4 @@
-# Proyecto IA — Clasificador de flores cambias de matiasss
+# Proyecto IA — Clasificador de flores cambio de matias
 Prototipo de clasificación con el dataset Iris integrado en scikit-learn. Se utiliza para practicar Git/GitHub, no para evaluar calidad predictiva.
 
 ## Instalación
