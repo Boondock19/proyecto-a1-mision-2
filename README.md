@@ -1,4 +1,4 @@
-# Proyecto IA — Clasificador de flores (rama Sarah)
+# Proyecto IA — Clasificador de flores cambios matias y sarah
 Prototipo de clasificación con el dataset Iris integrado en scikit-learn. Se utiliza para practicar Git/GitHub, no para evaluar calidad predictiva.
 
 ## Instalación
